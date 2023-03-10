@@ -5,6 +5,8 @@ const styles = {
   opacity: 0.6,
 };
 
+//Profe, entendí como "styling integrado" que el estilo este dentro de la clase ItemListContainer, de no ser asi avisame y lo corrijo.
+
 function ItemListContainer(props) {
   return (
     <div>
