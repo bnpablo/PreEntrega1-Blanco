@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <ItemListContainer mensaje= "No hay productos en el carrito"/>
+      <ItemListContainer greeting= "No hay productos en el carrito"/>
 
     </div>
   );

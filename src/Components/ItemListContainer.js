@@ -10,7 +10,7 @@ const styles = {
 function ItemListContainer(props) {
   return (
     <div>
-      <h1 style={styles}>{props.mensaje}</h1>
+      <h1 style={styles}>{props.greeting}</h1>
     </div>
   );
 }

@@ -1,17 +1,17 @@
 import React from 'react';
 
-function Carrito () {
+function CartWidget () {
   return (
     <div>
 
 <i class="bi bi-cart"></i>
-<a>7</a>
+<span>7</span>
 
     </div>
   );
 };
 
-export default Carrito;
+export default CartWidget;
 
 
 

@@ -1,4 +1,4 @@
-import Carrito from "./Carrito";
+import CartWidget from "./CartWidget";
 
 function NavBar() {
   return (
@@ -40,7 +40,7 @@ function NavBar() {
                 Tienda
               </a>
             </li>
-            <Carrito/>
+            <CartWidget/>
 
           </ul>
         </div>
