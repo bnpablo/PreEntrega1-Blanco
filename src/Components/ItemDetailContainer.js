@@ -2,9 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import arrayAutos from "../json/arrayAutos.json";
-import ItemList from "./ItemList";
+import ItemDetail from "./ItemDetail";
 
-function ItemListContainer() {
+function ItemDetailContainer() {
   const [item, setItem] = useState([]);
   const { id } = useParams();
 
@@ -12,7 +12,9 @@ function ItemListContainer() {
     const promise = new Promise((resolve) => {
       setTimeout(() => {
         resolve(
-          id ? arrayAutos.filter((item) => item.genre === id) : arrayAutos
+          id
+            ? arrayAutos.filter((item) => item.id === parseInt(id))
+            : arrayAutos
         );
       });
     });
@@ -25,10 +27,10 @@ function ItemListContainer() {
   return (
     <div className="container">
       <div className="row">
-        <ItemList item={item} />
+        <ItemDetail item={item} />
       </div>
     </div>
   );
 }
 
-export default ItemListContainer;
+export default ItemDetailContainer;

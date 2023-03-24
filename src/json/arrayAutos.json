@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Chevrolet Camaro",
+    "genre": "Muscle Car",
+    "author": "General Motors",
+    "description": "The Chevrolet Camaro is a mid-size American automobile manufactured by Chevrolet, classified as a muscle car and some versions also as a pony car. It went on sale on September 29, 1966, for the 1967 model year and was designed as a competing model to the Ford Mustang.",
+    "img": "https://www.example.com/images/camaro.jpg",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "title": "Ford Mustang",
+    "genre": "Muscle Car",
+    "author": "Ford",
+    "description": "The Ford Mustang is an American car manufactured by Ford. It was originally based on the platform of the second generation North American Ford Falcon, a compact car. The Mustang created the 'pony car' class of American automobiles—sports car-like coupes with long hoods and short rear decks—and gave rise to competitors such as the Chevrolet Camaro, Pontiac Firebird, AMC Javelin, Chrysler's revamped Plymouth Barracuda, and the first generation Dodge Challenger.",
+    "img": "https://www.example.com/images/mustang.jpg",
+    "stock": 5
+  },
+  {
+    "id": 3,
+    "title": "Toyota Supra",
+    "genre": "Sports Car",
+    "author": "Toyota",
+    "description": "The Toyota Supra is a sports car and grand tourer manufactured by Toyota Motor Corporation beginning in 1978. The initial four generations of the Supra were produced from 1978 to 2002. The fifth generation of the Supra is co-designed by Toyota and BMW, and was unveiled in January 2019.",
+    "img": "https://www.example.com/images/supra.jpg",
+    "stock": 3
+  },
+  {
+    "id": 4,
+    "title": "Nissan GT-R",
+    "genre": "Sports Car",
+    "author": "Nissan",
+    "description": "The Nissan GT-R is a sports car produced by Nissan, which was unveiled in 2007. It is the successor to the Nissan Skyline GT-R, and has a powerful twin-turbo V6 engine and all-wheel drive system.",
+    "img": "https://www.example.com/images/gtr.jpg",
+    "stock": 2
+  },
+  {
+    "id": 5,
+    "title": "BMW M5",
+    "genre": "Sports Car",
+    "author": "BMW",
+    "description": "The BMW M5 is a high-performance variant of the BMW 5 Series. It has a powerful V8 engine, sport-tuned suspension, and advanced technology features.",
+    "img": "https://www.example.com/images/m5.jpg",
+    "stock": 7
+  },
+  {
+    "id": 6,
+    "title": "Mercedes-Benz S-Class",
+    "genre": "Luxury Car",
+    "author": "Mercedes-Benz",
+    "description": "The Mercedes-Benz S-Class is a series of luxury sedans produced by the German automaker Mercedes-Benz. It is the flagship model of Mercedes-Benz, and is known for its advanced technology features, comfort, and performance.",
+    "img": "https://www.example.com/images/sclass.jpg",
+    "stock": 1
+  },
+  {
+    "id": 7,
+    "title": "Porsche 911",
+    "genre": "Luxury Car",
+    "author": "Porsche",
+    "description": "The Porsche 911 is a high-performance sports car produced by Porsche AG of Stuttgart, Germany. It has a rear-mounted flat-six engine and has been produced in numerous variants over the years.",
+    "img": "https://www.example.com/images/911.jpg",
+    "stock": 4
+  }
+]

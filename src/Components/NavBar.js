@@ -1,52 +1,51 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          Wolf Gym
-        </a>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+      <div className="container-fluid">
+        <Link to="/" className="navbar-brand">
+          Autos
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                Inicio
-              </a>
+        <div
+          className="collapse navbar-collapse d-flex justify-content-center"
+          id="navbarNav"
+        >
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link to="/category/MuscleCar" className="nav-link">
+                Muscle Car
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Actividades
-              </a>
+            <li className="nav-item">
+              <Link to="/category/SportsCar" className="nav-link">
+                Sports Car
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Blog
-              </a>
+            <li className="nav-item">
+              <Link to="/category/LuxuryCar" className="nav-link">
+                Luxury Car
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Tienda
-              </a>
-            </li>
-            <CartWidget/>
-
           </ul>
+        </div>
+        <div>
+          <a className="nav-link" href="/">
+            <CartWidget />
+          </a>
         </div>
       </div>
     </nav>
   );
 }
-
 export default NavBar;
