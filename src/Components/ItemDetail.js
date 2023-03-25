@@ -12,7 +12,7 @@ const ItemDetail = ({ item }) => {
     return (
         <div className="row">
             {item.map(item =>
-                <div className="container col-md-3">
+                <div className="container col-md-3" key={item.id}>
                     <div className="card">
                         <img src={item.img} className="card-img-top" alt={item.title} />
                         <div className="card-body text-center">

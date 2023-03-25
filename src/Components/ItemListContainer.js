@@ -12,7 +12,7 @@ function ItemListContainer() {
     const promise = new Promise((resolve) => {
       setTimeout(() => {
         resolve(
-          id ? arrayAutos.filter((item) => item.genre === id) : arrayAutos
+          id ? arrayAutos.filter(item => item.category === id) : arrayAutos
         );
       });
     });

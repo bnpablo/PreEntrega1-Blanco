@@ -11,17 +11,13 @@ function ItemDetailContainer() {
   useEffect(() => {
     const promise = new Promise((resolve) => {
       setTimeout(() => {
-        resolve(
-          id
-            ? arrayAutos.filter((item) => item.id === parseInt(id))
-            : arrayAutos
-        );
-      });
-    });
+        resolve(id ? arrayAutos.filter(item => item.id === parseInt(id)) : arrayAutos)
+          })
+        })
 
     promise.then((data) => {
       setItem(data);
-    });
+    })
   }, [id]);
 
   return (
